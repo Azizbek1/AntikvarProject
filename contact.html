@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <!-- OwlCarasel -->
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+    <!-- style -->
+    <link rel="stylesheet" href="./style/style.css">
+    <title>MyBlog</title>
+</head>
+
+<body>
+
+    <!-- HEADEAR -->
+    <header class="header" id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="header__logo" src="./images/logo.png" alt="png">
+                </a>
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link active" href="/">Asosiy Saxifa</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="#">Men haqimda</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="#">Bizning maqsadimiz</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="#">Jamoamiz</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="#">Biz bilan bog'lanish</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="slider" id="slider__carousel">
+                <div class="owl-carousel">
+                    <div> <img class="slider__img_carousel" src="./images/1.jpg" alt="jpg"> </div>
+                    <div> <img class="slider__img_carousel" src="./images/2.jpg" alt="jpg"> </div>
+                    <div> <img class="slider__img_carousel" src="./images/3.jpg" alt="jpg"> </div>
+                    <div> <img class="slider__img_carousel" src="./images/4.jpg" alt="jpg"> </div>
+                    <div> <img class="slider__img_carousel" src="./images/5.jpg" alt="jpg"> </div>
+                    <div> <img class="slider__img_carousel" src="./images/6.jpg" alt="jpg"> </div>
+                    <div> <img class="slider__img_carousel" src="./images/7.jpg" alt="jpg"> </div>
+                    <div> <img class="slider__img_carousel" src="./images/8.jpg" alt="jpg"> </div>
+                    <div> <img class="slider__img_carousel" src="./images/9.jpg" alt="jpg"> </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact__info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="box__contact">
+                        <img src="./images/contact1.png" alt="">
+                        <h4>Agar sizda sotiladigan narsa bo'lsa!</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box__contact">
+                        <img src="./images/contact2.png" alt="">
+                        <h4>Agar sizda narxlash kerak bo'ladigan buyum bo'lsa!</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box__contact">
+                        <img src="./images/contact3.png" alt="">
+                        <h4>Agar sizda antikav buyumlar kerak bo'lsa!</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box__contact">
+                        <img src="./images/contact4.png" alt="">
+                        <h4>Bemalol bizfa murojat qilishingiz mumkin!</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="contact__title">Biz bilan bog'lanish</h2>
+            <div class="form__contact">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <form>
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="formName" class="form-control" />
+                                        <label class="form-label" for="formName">Ismingiz</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="formEmal" class="form-control" />
+                                <label class="form-label" for="formEmal">Email address</label>
+                            </div>
+                            <!-- Number input -->
+                            <div class="form-outline mb-4">
+                                <input type="number" id="conactPhone" class="form-control" />
+                                <label class="form-label" for="conactPhone">Telefon raqamingiz</label>
+                            </div>
+                            <!-- Message input -->
+                            <div class="form-outline mb-4">
+                                <textarea class="form-control" id="conactHat" rows="4"></textarea>
+                                <label class="form-label" for="conactHat">Qiziqtiradigan savol</label>
+                            </div>
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary btn-block mb-4">Yuborish</button>
+
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                                <p>Biz bilan ijtimoiy tarmoqda ulanish</p>
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-telegram"></i>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-instagram"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="phone_img">
+                            <img  class="img__phone" src="./images/telefon.jpg" alt="jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer  -->
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link active" href="#">Asosiy Saxifa</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="#">Men haqimda</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="#">Bizning maqsadimiz</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="#">Jamoamiz</a>
+                        </li>
+                        <li class="nav-item header__nav__item">
+                            <a class="header__nav__link nav-link" href="#">Biz bilan bog'lanish</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <h4>Men ijtimoiy tarmoqda</h4>
+            <div class="footer__social">
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Jquery -->
+    <script src="./javascript/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <!-- carousel -->
+    <script src="javascript/owl.carousel.min.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+    <!-- JavaScript -->
+    <script src="./javascript/javascript.js"></script>
+</body>
+
+</html>
